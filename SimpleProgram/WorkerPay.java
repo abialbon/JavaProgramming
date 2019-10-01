@@ -7,7 +7,7 @@ public class WorkerPay {
         double hrs = scan.nextDouble();
         System.out.println("How much do you get paid per hour?");
         double pay = scan.nextDouble();
-        System.out.println("Your pay is: $"+ hrs*pay);
+        System.out.println("Your pay will be: $"+ hrs*pay);
         scan.close();
     }
 }
