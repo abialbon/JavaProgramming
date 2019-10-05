@@ -3,4 +3,5 @@
 *.iml
 out
 .class
+*/*.class
 .vscode
