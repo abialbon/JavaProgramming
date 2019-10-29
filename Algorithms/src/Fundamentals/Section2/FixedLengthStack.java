@@ -1,3 +1,5 @@
+package Fundamentals.Section2;
+
 import java.util.Iterator;
 
 public class FixedLengthStack<Item> implements Iterable<Item> {
@@ -42,7 +44,6 @@ public class FixedLengthStack<Item> implements Iterable<Item> {
     }
 
     public static void main(String[] args) {
-        System.out.println("Working!");
         FixedLengthStack<Integer> fs = new FixedLengthStack<Integer>(3);
         fs.push(13);
         fs.push(20);
