@@ -5,7 +5,7 @@ public class ShellSort {
             h = 3 * h + 1;
         }
         while (h > 0) {
-            for (int i = 0; i < arr.length; ++i) {
+            for (int i = h; i < arr.length; ++i) {
                 for (int j = i; j - h >= 0 && SortHelper.less(arr[j], arr[j-h]); j = j - h) {
                     SortHelper.exchange(arr, j, j-h);
                 }
